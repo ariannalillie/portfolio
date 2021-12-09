@@ -1,4 +1,5 @@
 import './Intro.css';
+import Arianna from '../../media/Arianna.png';
 
 const Intro = () => {
     return (
@@ -15,9 +16,14 @@ const Intro = () => {
                             <div className='i_title_item'>option 4</div>
                         </div>
                     </div>
+                    <div className='i_description'>
+                    I am a full-stack software engineer with experience in React, Redux, Javascript and Python. I'm a results-oriented, mission-driven, and passionate individual who excels in very demanding environments.
+                    </div>
                 </div>
             </div>
-            <div className='right_container'>right</div>
+            <div className='right_container'>
+                <img src={Arianna} alt='Arianna' className='i_img'/>
+            </div>
         </div>
     )
 };
