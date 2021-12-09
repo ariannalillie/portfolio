@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import { ThemeProvider } from './context';
 
 const Root = () => {
   return (
-    <App />
+    <ThemeProvider>
+      <App />
+    </ThemeProvider>
   )
 }
 
