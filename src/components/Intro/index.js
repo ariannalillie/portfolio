@@ -20,7 +20,7 @@ const Intro = () => {
                     I am a full-stack software engineer with experience in React, Redux, Javascript and Python. I'm a results-oriented, mission-driven, and passionate individual who excels in very demanding environments.
                     </p>
                 </div>
-                <svg
+                {/* <svg
           width="75"
           height="75"
           viewBox="0 0 75 75"
@@ -75,7 +75,7 @@ const Intro = () => {
               />
             </g>
           </g>
-        </svg>
+        </svg> */}
             </div>
             <div className='i_right'>
                 <div className='i_background'></div>

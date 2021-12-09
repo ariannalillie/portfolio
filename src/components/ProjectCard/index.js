@@ -1,6 +1,8 @@
+import './ProjectCard.css';
+
 const ProjectCard = () => {
     return (
-        <div>
+        <div className='pc'>
             <h1>Project Card</h1>
         </div>
     )
