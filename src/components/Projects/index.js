@@ -1,5 +1,6 @@
 import ProjectCard from '../ProjectCard';
 import './Projects.css';
+import {projects} from '../../data/projects.js';
 
 const Projects = () => {
     return (
@@ -10,12 +11,16 @@ const Projects = () => {
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a augue tristique, fringilla massa vel, viverra lectus. Sed et metus semper libero faucibus cursus. Sed eu egestas velit. Nam tincidunt, ex aliquet rutrum euismod, lacus quam scelerisque nunc, sit amet dapibus ipsum dolor sed metus.</p>
             </div>
             <div className='p_list'>
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
+                {projects.map((project) => {
+                    return (
+                        <ProjectCard
+                        key={project.id}
+                        website={project.website}
+                        image={project.image}
+                        />
+                    )
+                })}
+
             </div>
         </div>
     )

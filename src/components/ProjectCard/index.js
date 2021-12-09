@@ -1,6 +1,6 @@
 import './ProjectCard.css';
 
-const ProjectCard = () => {
+const ProjectCard = ({ website, image }) => {
     return (
         <div className='pc'>
             <div className='pc_browser'>
@@ -8,8 +8,8 @@ const ProjectCard = () => {
                 <div className='pc_circle'></div>
                 <div className='pc_circle'></div>
             </div>
-            <a href='google.com'>
-                <img src='' alt='' className=''/>
+            <a href={website}>
+                <img src={image} alt='' className='pc_img'/>
             </a>
         </div>
     )

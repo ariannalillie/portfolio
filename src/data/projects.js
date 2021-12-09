@@ -1,4 +1,4 @@
-import astroAnimateImg from '../media/astroanimate.png';
+import astroAnimateImg from '../media/astro-animate.png';
 
 export const projects = [
         {
@@ -26,7 +26,7 @@ export const projects = [
 
         },
         {
-            id: 3,
+            id: 4,
             name: "Uncork’d",
             website: "https://astroanimate.herokuapp.com/",
             image: astroAnimateImg,
@@ -34,7 +34,7 @@ export const projects = [
 
         },
         {
-            id: 4,
+            id: 5,
             name: "Kayak",
             website: "https://astroanimate.herokuapp.com/",
             image: astroAnimateImg,
