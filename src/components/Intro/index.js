@@ -21,7 +21,8 @@ const Intro = () => {
                     </div>
                 </div>
             </div>
-            <div className='right_container'>
+            <div className='i_right'>
+                <div className='i_background'></div>
                 <img src={Arianna} alt='Arianna' className='i_img'/>
             </div>
         </div>
