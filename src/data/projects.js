@@ -1,4 +1,5 @@
 import astroAnimateImg from '../media/astro-animate.png';
+import kayakImg from '../media/kayak.png';
 
 export const projects = [
         {
@@ -37,7 +38,7 @@ export const projects = [
             id: 5,
             name: "Kayak",
             website: "https://astroanimate.herokuapp.com/",
-            image: astroAnimateImg,
+            image: kayakImg,
             description: "Single page React app using Kayak's Api to display airline data"
 
         }
