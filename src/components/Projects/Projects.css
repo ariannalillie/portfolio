@@ -1,0 +1,27 @@
+.p {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.p_text {
+    width: 65%;
+}
+
+.p_title {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.p_description {
+    margin: 20px 0px;
+}
+
+.p_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
