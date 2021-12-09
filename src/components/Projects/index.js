@@ -14,6 +14,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a augue tristique
                 <ProjectCard />
                 <ProjectCard />
                 <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
             </div>
         </div>
     )

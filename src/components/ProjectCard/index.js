@@ -3,7 +3,14 @@ import './ProjectCard.css';
 const ProjectCard = () => {
     return (
         <div className='pc'>
-            <h1>Project Card</h1>
+            <div className='pc_browser'>
+                <div className='pc_circle'></div>
+                <div className='pc_circle'></div>
+                <div className='pc_circle'></div>
+            </div>
+            <a href='google.com'>
+                <img src='' alt='' className=''/>
+            </a>
         </div>
     )
 };
