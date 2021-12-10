@@ -25,3 +25,17 @@
     justify-content: space-between;
     width: 100%;
 }
+
+@media screen and (max-width: 400px) {
+    .p {
+        padding: 10px;
+    }
+
+    .p_text {
+        width: 100%;
+    }
+
+    .p_description {
+        display: none;
+    }
+}
